@@ -1,0 +1,53 @@
+{
+  "images" : [
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "736h",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "filename" : "Default-Portrait~iPhone-6-Plus@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "667h",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "filename" : "Default-Portrait~iPhone-6@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "2688h",
+      "minimum-system-version" : "12.0",
+      "orientation" : "portrait",
+      "filename" : "Default-Portrait~iPhone-2688h.png",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "1792h",
+      "minimum-system-version" : "12.0",
+      "orientation" : "portrait",
+      "filename" : "Default-Portrait~iPhone-1792h.png",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "2436h",
+      "minimum-system-version" : "11.0",
+      "orientation" : "portrait",
+      "filename" : "Default-Portrait~iPhone-2436h.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

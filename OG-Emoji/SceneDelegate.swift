@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import Swifter
+import TwitterKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        guard let context = URLContexts.first else { return }
+        let callbackUrl = URL(string: TwitterConstants.CALLBACK_URL)!
+        Swifter.handleOpenURL(context.url, callbackURL: callbackUrl)
+//        TWTRTwitter.sharedInstance().application(UIApplication.shared, open: callbackUrl, options: [:])
+//      static let swifterCallback = Notification.Name(rawValue: "Swifter.CallbackNotificationName")
 
+//        let notification = Notification(name: .swifterCallback, object: nil, userInfo: [CallbackNotification.optionsURLKey: url])
+//        NotificationCenter.default.post(notification)
+        
 
+    }
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.

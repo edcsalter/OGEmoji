@@ -1,0 +1,12 @@
+//
+//  Twitter.xcconfig
+//  OG-Emoji
+//
+//  Created by Edward Salter on 8/14/20.
+//  Copyright © 2020 theiOSdev. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_KEY = DpeF4pM61nRRlYxgCEo6nTwvG
